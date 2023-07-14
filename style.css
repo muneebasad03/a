@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+.navbar-nav .nav-item a {
+  margin-right: 30px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none solid rgb(14, 17, 51);
+  color: #0e1133;
+}
+
+.caro .bi-circle-fill {
+  font-size: 500px;
+  color: #fe3e65;
+  z-index: -1;
+
+  right: 20%;
+  bottom: 0.99%;
+}
+
+.caro .img {
+  z-index: 1;
+}
+
+.caro .col-7 p {
+  font-size: 14px;
+  font-family: var(--font-family);
+  font-weight: 900;
+  text-align: left;
+  color: #3d79fa;
+}
+
+.caro .col-7 h1 {
+  font-size: 60px;
+  font-family: var(--font-family);
+  font-weight: bolder;
+  text-align: left;
+  color: #000000;
+}
+
+.caro .col-7 h5 {
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: bolder;
+  font-weight: 400;
+  text-align: left;
+  color: #888383;
+}
+
+.caro button {
+  padding: 9px 35px 9px 35px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  font: bold;
+  font-family: var(--font-family);
+}
+
+.card1{
+  width: 271px;
+  height: 275px;
+  background-color: white;
+
+  
+}
+ .card1 .imga{
+  border-radius: 21px;
+  width: 70px;
+  height: 68px;
+
+ }
+ .designwith h3{
+  font-size: 44px;
+  font-weight: 900;
+  
+
+ }
+
+ .designwith p {
+  font-size: 18px;
+  color: #888383;
+  font-weight: 400;
+  font-family: var(--font-family);
+ }
